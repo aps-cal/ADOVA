@@ -1,0 +1,304 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-04-18 15:13:32 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:13:32 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:13:32 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:13:49 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:13:49 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:13:49 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:13:56 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:13:56 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:14:43 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:14:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:14:58 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:14:58 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:09 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:09 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:23 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:23 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:23 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:24 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:24 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:30 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:30 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:15:43 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:15:43 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:16:05 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:16:05 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:16:21 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:16:21 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:16:55 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:16:55 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:17:18 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:17:18 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:17:40 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:17:40 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:18:07 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:18:07 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:18:33 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:18:33 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:18:48 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:18:48 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:19:01 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:19:01 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:19:16 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:19:16 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:19:36 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:19:36 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:20:04 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:20:04 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:20:28 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:20:28 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197
+ERROR - 2018-04-18 15:21:31 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined index: warwickteachingstaff /data/www/html/naba.net/application/controllers/Jsonp_controller.php 133
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 133
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 140
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 148
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 155
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 162
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 169
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 176
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 183
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 190
+ERROR - 2018-04-18 15:21:31 --> Severity: Notice  --> Undefined variable: filter /data/www/html/naba.net/application/models/it_model.php 197

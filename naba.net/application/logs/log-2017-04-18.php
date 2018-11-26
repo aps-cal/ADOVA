@@ -1,0 +1,17 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2017-04-18 09:08:18 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 11:19:33 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 11:19:33 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 11:19:34 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 11:19:34 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 14:26:43 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 16:23:57 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 17:08:28 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 17:08:28 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 17:08:29 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 19:12:53 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 20:08:24 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 20:48:55 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 23:28:22 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2017-04-18 23:53:41 --> Severity: Warning  --> mysql_pconnect(): Headers and client library minor version mismatch. Headers:50173 Library:50312 /data/www/html/codeigniter/system/database/drivers/mysql/mysql_driver.php 91

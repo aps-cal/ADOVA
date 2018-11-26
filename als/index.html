@@ -1,0 +1,954 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+<!--
+<script type="text/javascript">
+    SitebuilderInfo.url = '/fac/soc/al/intranet/annual_leave';
+    SitebuilderInfo.lastUpdated = 1473863057704;
+    SitebuilderInfo.lastContentUpdated = 1441806833300;
+    SitebuilderInfo.buildTimestamp = '160815134719';
+</script>
+-->
+
+
+
+
+
+    <link rel='stylesheet' type='text/css' href='./styles/jquery-ui-1.9.2.custom.min.css' />
+
+    <link rel='stylesheet' type='text/css' href='./styles/jquery.multiselect.css' />
+
+    <link rel='stylesheet' type='text/css' href='./styles/fullcalendar.css' />
+
+    <link rel='stylesheet' type='text/css' href='./styles/fullcalendar.print.css' media='print' />
+
+    <link rel='stylesheet' type='text/css' href='./styles/annual_leave.css' />
+
+    <link rel="stylesheet" media="screen" type="text/css" href="./styles/spectrum.css" />
+
+    <link rel="stylesheet" href="./styles/selectize.bootstrap3.css" type="text/css">
+
+    <link href="./styles/usersearch.css" rel="stylesheet" type="text/css">
+
+
+
+
+<link rel="alternate"
+      type="application/rss+xml"
+      title="Changes in /fac/soc/al/ (RSS 2.0)"
+      href="http://www2.warwick.ac.uk/sitebuilder2/api/rss/siteChanges.rss?page=/fac/soc/al">
+
+
+    <style type='text/css'>
+#loading {
+	margin:0 10px;
+	display: inline-block;
+	height: 2em;
+}
+#calendar {
+	width: 100%;
+	margin: 0 auto;
+}
+#calendar .statutory, #calendar .customary, #calendar .bank-holiday, #calendar .deletable {
+	cursor:pointer;
+}
+#calendar .deletable .fc-event-inner:hover {
+	background-image:url('/fac/soc/economics/apps/als/delete_16.png');
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+#calendar .unauthorised .fc-event-title {font-weight: bold;}
+#calendar .unauthorised .fc-event-title:before {content:"* ";}
+#calendar .add {background: transparent url('/fac/soc/economics/apps/als/add.png') no-repeat top center;}
+#calendar .restricted {
+	color:red;
+}
+
+#book_as {float:right;}
+
+#authorise {margin:auto;}
+#authorise .ecSlideItemAuthorise p {text-align:center;}
+#authorise .ecSlideItemAuthorise .ecSlideItemButton {position:relative; left:75px;}
+
+#als table {border-collapse:collapse;margin:10px auto;}
+#als table, #als th, #als td {border: 1px solid #BABABA;margin-bottom:50px;}
+#als td {padding:5px;}
+#als td.center {text-align:center;}
+#als .hover {cursor:pointer;}
+#als #button-center {position:relative; left:177px;}
+#als #admin_settings .content {overflow-y:scroll;overflow-x:hidden;}
+#als #annualLeaveTable {width: 90%;}
+#als #annualLeaveTable .col2 {width: 50%;float:left;}
+#als #annualLeaveTable .col3 {width: 33%;float:left;}
+#als #annualLeaveUsers {clear:both;}
+#als #annualLeaveUserEdit {padding-bottom:30px;}
+#als #annualLeaveUserEdit p {text-align:left;}
+#als #annualLeaveUserEdit label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 150px;
+}
+#als #annualLeaveUserRemove {float:right;}
+
+.ui-autocomplete {
+	background-color:#fff;
+        max-height: 200px;
+        overflow-y: auto;
+        /* prevent horizontal scrollbar */
+        overflow-x: hidden;
+    }
+    /* IE 6 doesn't support max-height
+     * we use height instead, but this forces the menu to always be this tall
+     */
+    * html .ui-autocomplete {
+        height: 200px;
+    }
+.center {text-align:center !important;}
+.clear {clear:both !important;}
+</style>
+
+
+
+
+
+    <script type='text/javascript' src='../als/scripts/JQuery.js'></script>
+    
+    <script type='text/javascript' src='./scripts/jquery-ui.min.js'></script>
+
+    <script type='text/javascript' src='./scripts/jquery.multiselect.min.js'></script>
+
+    <script type='text/javascript' src='./scripts/jquery.spin.js'></script>
+
+    <script type="text/javascript" src='./scripts/ecslideitems.js'> </script>
+
+    <script type='text/javascript' src='./scripts/fullcalendar.min.js'></script>
+
+    <script type='text/javascript' src='./scripts/jquery.reveal.js'></script>
+
+    <script type="text/javascript" src='./scripts/spectrum.js'></script>
+
+    <script type="text/javascript" src="./scripts/selectize.min.js"></script>
+
+    <script type="text/javascript" src="./scripts/jquery.usersearch.min.js"></script>
+
+
+
+
+
+    
+
+    
+        
+            
+            
+            
+<!--           
+                <script type="text/javascript">
+Event.onDOMReady(function() { var email741977700 = '<a href="mailto:&#x';
+email741977700 += '61';
+email741977700 += ';&#112;&#112;&';
+email741977700 += '#108;&#105;&#110;&#x67;&#64;&#119;';
+email741977700 += '&#x61;&#x72;&#119;&#x69;&#x63';
+email741977700 += ';&#';
+email741977700 += 'x6b;&#x2e;';
+email741977700 += '&#97;&#x63';
+email741977700 += ';&#46;&#';
+email741977700 += 'x75;&';
+email741977700 += '#x6b;"';
+email741977700 += '>&#x61;&#x70;&#x70;&#108;&#105;&#110;&#103;&#x40;&#';
+email741977700 += 'x77';
+email741977700 += ';&#x6';
+email741977700 += '1;&#x72;&#';
+email741977700 += 'x77;&#105;&#x';
+email741977700 += '63;&#107;&#x2e;&#97;&#x63;&#46;&#x75;&#';
+email741977700 += '1';
+email741977700 += '07;<\/a>';
+if(document.getElementById('email741977700')) document.getElementById('email741977700').innerHTML = email741977700;
+});
+</script>          
+-->        
+    
+</head>
+<body>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<div id="calendar"></div>
+
+<div id="als"> 
+  <div id="delete" class="modal"> 
+    <div class="heading"> Delete Annual Leave </div>
+
+    <div class="content"> 
+      <p>Are you sure you want to delete this leave?</p>
+
+      <p><a href="http://www2.warwick.ac.uk/fac/soc/economics/apps/als/#" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Confirm</a> <a href="http://www2.warwick.ac.uk/fac/soc/economics/apps/als/#" class="btn btn-danger close-reveal-modal"><i class="fa fa-ban"></i> Cancel</a> </p>
+
+    </div>
+
+  </div>
+
+  <div id="confirm" class="modal"> 
+    <div class="heading"> Confirm Annual Leave Booking </div>
+
+    <div class="content"> 
+      <p class="dates"></p>
+
+      <p>Are you sure you want to book this leave?</p>
+
+      <p><a href="http://www2.warwick.ac.uk/fac/soc/economics/apps/als/#" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Confirm</a> <a href="http://www2.warwick.ac.uk/fac/soc/economics/apps/als/#" class="btn btn-danger close-reveal-modal"><i class="fa fa-ban"></i> Cancel</a> </p>
+
+      <p class="small">You may create and modify bookings without issuing a notification to your supervisor. A notification will be sent only after a 5 minute period of inactivity.</p>
+
+    </div>
+
+  </div>
+
+  <div id="admin_settings" class="modal"> 
+    <div class="heading"> Settings </div>
+
+    <div class="content"> 
+      <div class="col-md-6 col-sm-offset-3"> 
+        <p><label for="search">Add Person: </label> <select id="user-search"></select> </p>
+
+      </div>
+
+      <div id="annualLeaveUsers"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script type="text/javascript">
+
+            var calendar = {};
+            var user = '';
+            var bookAs = [];
+            var booking = false;
+            var unit = 0;
+
+            var loadingCal = false;
+            var loadingPer = false;
+
+            var refreshTimer;
+            var refreshLastMonth = '';
+
+            jQuery(document).ready(function () {
+
+                calendar = jQuery('#calendar').fullCalendar({
+                    header: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'month,agendaWeek,agendaDay'
+                    },
+                    minTime: 8,
+                    maxTime: 17,
+                    selectable: true,
+                    selectHelper: true,
+                    editable: false,
+                    weekends: false,
+                    columnFormat: {
+                        week: 'ddd d/M',
+                        day: 'dddd d/M'
+                    },
+                    select: function (start, end, allDay) {
+                        if (booking == true || bookAs.length > 0) {
+
+                            if (loadingCal == false) {
+                                var strStart = start.getDate() + "/" + (start.getMonth() + 1) + "/" + start.getFullYear();
+                                var strEnd = end.getDate() + "/" + (end.getMonth() + 1) + "/" + end.getFullYear();
+
+                                var dates = strStart;
+                                if (allDay == 0)
+                                    dates += " " + bookTime(start);
+                                if (strStart != strEnd) {
+                                    dates += " - " + strEnd;
+                                    if (allDay == 0)
+                                        dates += " " + bookTime(end);
+                                }
+                                if (allDay == 1)
+                                    dates += " (all day)";
+                                jQuery('#confirm .dates').text(dates);
+
+                                var modal = jQuery('#confirm').reveal({// The item which will be opened with reveal
+                                    animationspeed: 200, // how fast animtions are
+                                    closeonbackgroundclick: true            // if you click background will modal close?
+                                });
+
+                                jQuery('#confirm a.btn-success').unbind().bind('click', function (e) {
+                                    e.preventDefault();
+
+                                    var conflict = false;
+
+                                    // Book as another user
+                                    var bookAsUser = user;
+                                    if (jQuery('#r_book_as').length != 0)
+                                        bookAsUser = jQuery('#r_book_as').val();
+
+                                    var events = calendar.fullCalendar('clientEvents');
+                                    for (var i = 0; i < events.length; i++) {
+                                        if (events[i].user == bookAsUser || events[i].user == 'statutory' || events[i].user == 'customary' || events[i].user == 'bank-holiday') {
+                                            //all day event
+                                            if (start.getDate() == events[i].start.getDate() && start.getMonth() == events[i].start.getMonth() && start.getFullYear() == events[i].start.getFullYear() && allDay == true) {
+                                                conflict = true;
+                                            }
+                                            // start-time in between any of the events
+                                            if (start >= events[i].start && start < events[i].end) {
+                                                conflict = true;
+                                            }
+                                            //end-time in between any of the events
+                                            if (end > events[i].start && end <= events[i].end) {
+                                                conflict = true;
+                                            }
+                                            //any of the events in between/on the start-time and end-time
+                                            if (start <= events[i].start && end >= events[i].end) {
+                                                conflict = true;
+                                            }
+                                            //any of the events longer than the start-time and end-time
+                                            if (start >= events[i].start && end <= events[i].end) {
+                                                conflict = true;
+                                            }
+                                        }
+                                    }
+
+                                    if (conflict != true) {
+                                        jQuery.ajax({
+                                            url: 'https://als.economics.warwick.ac.uk/set.php',
+                                            type: 'GET',
+                                            dataType: 'jsonp',
+                                            data: {
+                                                bookAs: bookAsUser,
+                                                start: (start.valueOf() / 1000),
+                                                end: (end.valueOf() / 1000),
+                                                allDay: allDay
+                                            },
+                                            error: function () {
+                                                alert('There was an error while saving this event!');
+                                            },
+                                            success: function (res) {
+                                                //console.log(res);
+                                                if (res == 1)
+                                                    alert("You have exceeded your allocated leave. The end date of this booking has been adjusted.");
+                                                if (res == 2)
+                                                    alert("You are unable to book this annual leave.");
+                                                if (res != 0 && res != 1 && res != 2)
+                                                    alert(res);
+
+                                                calendar.fullCalendar('refetchEvents');
+                                                personalStats();
+                                            }
+                                        });
+                                    }
+
+                                    modal.trigger('reveal:close');
+
+                                    jQuery('#confirm .dates').text('');
+                                });
+
+                                jQuery('#confirm a.btn-danger').unbind().bind('click', function (e) {
+                                    e.preventDefault();
+                                    modal.trigger('reveal:close');
+                                    jQuery('#confirm .dates').text('');
+                                });
+                                return false;
+                            }
+
+                        }
+                        calendar.fullCalendar('unselect');
+                    },
+                    events: function (start, end, callback) {
+                        if (start.getTime() != refreshLastMonth)
+                            jQuery(".fc-view .restricted").removeClass('restricted');
+                        refreshLastMonth = start.getTime();
+
+                        jQuery.ajax({
+                            url: 'https://als.economics.warwick.ac.uk/events.php',
+                            type: 'GET',
+                            dataType: 'jsonp',
+                            data: {
+                                start: Math.round(start.getTime() / 1000),
+                                end: Math.round(end.getTime() / 1000)
+                            },
+                            success: function (doc) {
+                                var monthView = calendar.fullCalendar('getDate');
+                                if (start == refreshLastMonth)
+                                    jQuery(".fc-view .restricted").removeClass('restricted');
+                                jQuery.each(doc.restrictions, function (index, itemData) {
+                                    var restrictedDay = itemData.start * 1000;
+                                    if (restrictedDay < start.getTime())
+                                        restrictedDay = start.getTime();
+                                    while (restrictedDay <= (itemData.end * 1000) && restrictedDay <= end.getTime()) {
+                                        var restricted = new Date(restrictedDay);
+
+                                        if (monthView.getMonth() == restricted.getMonth()) {
+                                            jQuery(".fc-widget-content").not(".fc-other-month").find("div.fc-day-number").filter(function () {
+                                                if (jQuery(this).text() == restricted.getDate())
+                                                    jQuery(this).parents(".fc-widget-content").addClass("restricted");
+                                            });
+                                        } else {
+                                            jQuery(".fc-widget-content.fc-other-month").find("div.fc-day-number").filter(function () {
+                                                if (jQuery(this).text() == restricted.getDate())
+                                                    jQuery(this).parents(".fc-widget-content").addClass("restricted");
+                                            });
+                                        }
+
+                                        restrictedDay += 86400000;
+                                    }
+                                });
+
+                                var events = [];
+                                jQuery.each(doc.events, function (index, itemData) {
+                                    events.push(itemData);
+                                });
+                                callback(events);
+                            },
+                            error: function () {
+                                window.location = "https://websignon.warwick.ac.uk/origin/logout?target=" + window.location.href;
+                                //console.log('Error at https://als.economics.warwick.ac.uk/events.php');
+                            }
+                        });
+                    },
+                    eventClick: function (event) {
+                        var now = new Date();
+                        var difference = event.start - now;
+
+                        if ((booking == true && user == event.user && ((event.auth == 0 && difference < 0) || difference > 0)) || (bookAs.indexOf(event.user) != -1 && user != event.user)) {
+                            var modal = jQuery('#delete').reveal({// The item which will be opened with reveal
+                                animationspeed: 200, // how fast animtions are
+                                closeonbackgroundclick: true            // if you click background will modal close?
+                            });
+
+                            jQuery('#delete a.btn-success').unbind().bind('click', function (e) {
+                                e.preventDefault();
+                                jQuery.ajax({
+                                    url: 'https://als.economics.warwick.ac.uk/set.php',
+                                    type: 'GET',
+                                    dataType: 'jsonp',
+                                    data: {
+                                        id: event.id,
+                                        bookAs: event.user,
+                                        remove: true
+                                    },
+                                    error: function () {
+                                        alert('There was an error while deleting this event!');
+                                    },
+                                    success: function (res) {
+                                        if (res == 1) {
+                                            calendar.fullCalendar('refetchEvents');
+                                            personalStats();
+                                        }
+                                        if (res == 2)
+                                            alert('You do not have the privileges to delete this event!');
+                                    }
+                                });
+                                modal.trigger('reveal:close');
+                            });
+
+                            jQuery('#delete a.btn-danger').unbind().bind('click', function (e) {
+                                e.preventDefault();
+                                modal.trigger('reveal:close');
+                            });
+                            return false;
+
+                        } else if (event.user == 'statutory' || event.user == 'customary') {
+                            window.open("https://www2.warwick.ac.uk/insite/holidaydates/", "_blank");
+                        } else if (event.user == 'bank-holiday') {
+                            window.open("https://www.gov.uk/bank-holidays/", "_blank");
+                        }
+                    },
+                    eventDrop: function (event, dayDelta, minuteDelta, allDay) {
+                        if (booking == true) {
+                            jQuery.ajax({
+                                url: 'https://als.economics.warwick.ac.uk/set.php',
+                                type: 'GET',
+                                dataType: 'jsonp',
+                                data: {
+                                    id: event.id,
+                                    start: (event.start.valueOf() / 1000),
+                                    end: (event.end.valueOf() / 1000),
+                                    allDay: allDay
+                                },
+                                error: function () {
+                                    alert('There was an error while saving this event!');
+                                },
+                                success: function (res) {
+                                    calendar.fullCalendar('refetchEvents');
+                                    personalStats();
+                                }
+                            });
+                        }
+                        calendar.fullCalendar('unselect');
+                    },
+                    eventResize: function (event) {
+                        jQuery.ajax({
+                            url: 'https://als.economics.warwick.ac.uk/set.php',
+                            type: 'GET',
+                            dataType: 'jsonp',
+                            data: {
+                                id: event.id,
+                                start: (event.start.valueOf() / 1000),
+                                end: (event.end.valueOf() / 1000)
+                            },
+                            error: function () {
+                                alert('There was an error while saving this event!');
+                            },
+                            success: function (res) {
+                                calendar.fullCalendar('refetchEvents');
+                                personalStats();
+                            }
+                        });
+                        calendar.fullCalendar('unselect');
+                    },
+                    loading: function (bool) {
+                        if (bool) {
+                            loadingCal = true;
+                            loading(true);
+
+                            refreshTimer = clearTimeout(refreshTimer);
+                        } else {
+                            loadingCal = false;
+                            if (loadingPer == false)
+                                loading(false);
+
+                            refreshTimer = setInterval(function () {
+                                calendar.fullCalendar('refetchEvents');
+                            }, 30000);
+                        }
+                    }
+
+                });
+
+                personalStats();
+            });
+
+            function loadSettings(is_admin) {
+
+                jQuery("#calendar .fc-header-right").append('<span class="fc-header-space"/><span id="settings" class="fc-button fc-state-default fc-corner-left fc-corner-right"><span class="fc-button-inner"><span class="fc-button-content"><i class="fa fa-bars" aria-hidden="true"></i></span><span class="fc-button-effect"><span/></span></span></span>');
+
+                if (is_admin) {
+                    jQuery("#admin_settings .ui-widget").show();
+
+                    var $select = jQuery("#user-search").userSearch({
+                        "valueField": "user",
+                        "onChange": function (value) {
+                            jQuery.ajax({
+                                url: 'https://als.economics.warwick.ac.uk/setup.php',
+                                type: 'GET',
+                                dataType: 'jsonp',
+                                data: {
+                                    a: value
+                                },
+                                error: function () {
+                                    alert('Could not save this user!');
+                                },
+                                success: function (res) {
+                                    if (res) {
+                                        annualLeaveUsers();
+                                    } else {
+                                        alert("User already exists!");
+                                    }
+
+                                    var control = $select[0].selectize;
+                                    control.clear();
+                                }
+                            });
+                        }
+                    });
+                } else {
+                    jQuery("#admin_settings .ui-widget").hide();
+                }
+
+                jQuery("#calendar #settings").click(function () {
+                    jQuery('#admin_settings').reveal({// The item which will be opened with reveal
+                        animation: 'fade', // fade, fadeAndPop, none
+                        animationspeed: 200, // how fast animtions are
+                        closeonbackgroundclick: true, // if you click background will modal close?
+                        dismissmodalclass: 'close'    // the class of a button or element that will close an open modal
+                    });
+
+                    annualLeaveUsers(is_admin); // Retrieve the latest settings 
+                });
+            }
+
+            function annualLeaveUsers(is_admin) {
+                jQuery("#annualLeaveTable").remove();
+
+                jQuery.ajax({
+                    url: 'https://als.economics.warwick.ac.uk/setup.php',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    beforeSend: function () {
+                        jQuery("#admin_settings .content").spin({lines: 8, length: 5, width: 4, radius: 4}, "black");
+                    },
+                    complete: function () {
+                        jQuery("#admin_settings .content").spin(false);
+                    },
+                    error: function () {
+                        alert('Could not retrieve the user configuration settings!');
+                    },
+                    success: function (data) {
+                        //console.log(data);
+                        if (data) {
+                            var supervisors = [];
+
+                            var annualLeaveTable = '<table id="annualLeaveTable"><tr>' + (is_admin ? '<td>&nbsp;</td>' : '') + '<td>Colour</td><td>Name</td><td>Booking</td><td>Supervisor</td><td>Admin</td><td>Type</td><td>Leave</td><td>Remaining</td></tr>';
+                            jQuery.each(data, function (index, itemData) {
+                                if (itemData.is_supervisor)
+                                    supervisors.push(itemData);
+
+                                annualLeaveTable += '<tr>' + (is_admin ? '<td class="center"><a id="annualLeaveUser_' + itemData.user + '" class="annualLeaveEdit" href="javascript://">Edit</a></td>' : '') + '<td style="background-color:' + itemData.color + '; color:' + itemData.textColor + ';">Colour</td><td>' + itemData.name + ' (' + itemData.user + ')</td><td>' + (itemData.is_booking ? 'Yes' : 'No') + '</td><td>' + (itemData.is_supervisor ? 'Yes' : 'No') + '</td><td>' + (itemData.is_admin ? 'Yes' : 'No') + '</td><td>' + (itemData.is_booking ? (itemData.unit == 1 ? 'Hours' : 'Days') : 'N/A') + '</td><td>' + (itemData.is_booking ? itemData.combNum : 'N/A') + '</td><td>' + (itemData.is_booking ? itemData.unitRem : 'N/A') + '</td></tr>';
+                            });
+                            annualLeaveTable += '</table>';
+
+                            jQuery("#annualLeaveUsers").html(annualLeaveTable);
+
+                            if (is_admin) {
+                                jQuery(".annualLeaveEdit").click(function () {
+                                    var annualLeaveUser = jQuery(this).attr("id");
+                                    var annualLeaveUser_user = annualLeaveUser.replace('annualLeaveUser_', '');
+
+                                    jQuery(this).parents("tr").replaceWith('<tr><td colspan="9" id="annualLeaveUserEdit">&nbsp;</td></tr>');
+
+                                    jQuery.ajax({
+                                        url: 'https://als.economics.warwick.ac.uk/setup.php',
+                                        type: 'GET',
+                                        dataType: 'jsonp',
+                                        data: {
+                                            u: annualLeaveUser_user
+                                        },
+                                        beforeSend: function () {
+                                            jQuery("#annualLeaveUserEdit").spin({lines: 8, length: 5, width: 4, radius: 4}, "black");
+                                        },
+                                        complete: function () {
+                                            jQuery("#annualLeaveUserEdit").spin(false);
+                                        },
+                                        error: function () {
+                                            alert('Could not get this user!');
+                                        },
+                                        success: function (sdata) {
+                                            // Create Supervisor List
+                                            if (supervisors.length === 1 && sdata.is_supervisor) {
+                                                var supervisorSelect = 'No supervisors configured';
+                                            } else {
+                                                var supervisorSelect = '<select name="supervisor" id="r_supervisor" multiple="multiple">';
+                                                jQuery.each(supervisors, function (index, superData) {
+                                                    if (superData.user != sdata.user) {
+                                                        supervisorSelect += '<option value="' + superData.user + '" ' + (sdata.supervisor.indexOf(superData.user) != -1 ? 'selected="selected"' : '') + '>' + superData.name + '</option>';
+                                                    }
+                                                });
+                                                supervisorSelect += '</select>';
+                                            }
+
+                                            // Show user information
+                                            var user = sdata.user;
+
+                                            var title = '<div id="annualLeaveUserRemove"><a href="#" class="remove"><img src="/fac/soc/economics/apps/als/remove-icon.png" /></a></div><div class="center clear"><strong>Editing ' + sdata.name + '</strong></div>';
+
+                                            var rowOne = '<div class="clear"><div class="col3"><p><label for="is_booking">Allow Booking?</label><input id="r_is_booking" type="checkbox" name="is_booking" value="1" ' + (sdata.is_booking ? 'checked="checked"' : '') + ' /></p></div><div class="col3"><p><label for="is_supervisor">Is Supervisor?</label><input id="r_is_supervisor" type="checkbox" name="is_supervisor" value="1" ' + (sdata.is_supervisor ? 'checked="checked"' : '') + ' /></p></div><div class="col3"><p><label for="is_admin">Is Admin?</label><input type="checkbox" name="is_admin" id="r_is_admin" value="1" ' + (sdata.is_admin ? 'checked="checked"' : '') + ' /></p></div></div>';
+
+                                            var rowTwo = '<div class="annualLeaveUserBooking"><div class="clear"><p><label for="supervisor">Supervisor</label>' + supervisorSelect + '</p></div></div>';
+
+                                            var rowThree = '<div class="annualLeaveUserBooking"><div class="clear"><div class="col2"><p><label for="unit">Background Colour</label><input type="input" id="r_background_color" size="5" name="background_color" value="' + (sdata.color !== undefined ? sdata.color : '') + '" /></p></div><div class="col2"><p><label for="text_color">Text Colour</label><input type="input" id="r_text_color" size="5" name="text_color" value="' + (sdata.textColor !== undefined ? sdata.textColor : '') + '" /></p></div></div></div>';
+
+                                            var rowFour = '<div class="annualLeaveUserBooking"><div class="clear"><div class="col2"><p><label for="unit">Leave Type</label><select id="r_unit" name="unit"><option value="0" ' + (sdata.unit == 0 ? 'selected="selected"' : '') + '>Days</option><option value="1" ' + (sdata.unit == 1 ? 'selected="selected"' : '') + '>Hours</option></select></p></div><div class="col2"><p><span id="day_hours"><label for="day_hours">Hours in Day</label><input type="input" size="5" id="r_day_hours" name="day_hours" value="' + (sdata.dayHours !== undefined ? sdata.dayHours : '7.5') + '" /></span></p></div></div></div>';
+
+                                            var rowFive = '<div class="annualLeaveUserBooking"><div class="clear"><div class="col2"><p><label for="annual_leave">Annual Leave</label><input type="input" id="r_annual_leave" size="5" name="annual_leave" value="' + (sdata.unitNum !== undefined ? sdata.unitNum : '') + '" /></p></div><div class="col2"><p><label for="supplementary_leave">Supplementary Leave</label><input type="input" id="r_supp_leave" size="5" name="supplementary_leave" value="' + (sdata.suppNum !== undefined ? sdata.suppNum : '') + '" /></p></div></div></div>';
+
+                                            var buttons = '<p class="text-center"><a href="#" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Update</a> <a href="#" class="btn btn-danger close-reveal-modal"><i class="fa fa-ban"></i> Cancel</a> </p>';
+
+                                            jQuery("#annualLeaveUserEdit").html(title + rowOne + rowTwo + rowThree + rowFour + rowFive + buttons);
+
+                                            jQuery("#r_supervisor").multiselect({
+                                                noneSelectedText: 'Select Supervisors',
+                                                selectedList: 4
+                                            });
+
+                                            jQuery("#r_background_color, #r_text_color").spectrum({clickoutFiresChange: true, preferredFormat: "hex6"});
+
+                                            if (!sdata.unit || 0 == sdata.unit)
+                                                jQuery("#day_hours").hide();
+                                            jQuery("select#r_unit").change(function () {
+                                                if (jQuery(this).val() == 1) {
+                                                    jQuery("#day_hours").show();
+                                                } else {
+                                                    jQuery("#day_hours").hide();
+                                                }
+                                            });
+
+                                            if (!sdata.is_booking)
+                                                jQuery(".annualLeaveUserBooking").hide();
+                                            jQuery("input#r_booking").change(function () {
+                                                if (jQuery(this).prop('checked')) {
+                                                    jQuery(".annualLeaveUserBooking").show();
+                                                } else {
+                                                    jQuery(".annualLeaveUserBooking").hide();
+                                                }
+                                            });
+
+                                            jQuery('#admin_settings a.remove').unbind().bind('click', function (e) {
+                                                e.preventDefault();
+                                                jQuery("#annualLeaveUserEdit").html('<p class="center"><strong>Remove ' + sdata.name + '?</strong></p><div id="button-center" class="clear"><a href="#" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Confirm</a> <a href="#" class="btn btn-danger"><i class="fa fa-ban"></i> Cancel</a> </div>');
+
+                                                jQuery('#admin_settings a.btn-success').unbind().bind('click', function (e) {
+                                                    e.preventDefault();
+                                                    jQuery.ajax({
+                                                        url: 'https://als.economics.warwick.ac.uk/setup.php',
+                                                        type: 'GET',
+                                                        dataType: 'jsonp',
+                                                        data: {
+                                                            r: sdata.user
+                                                        },
+                                                        error: function () {
+                                                            alert('There was an error while updating this user!');
+                                                        },
+                                                        success: function (udata) {
+                                                            if (sdata.user == user)
+                                                                personalStats();
+                                                            annualLeaveUsers(is_admin);
+                                                        }
+                                                    });
+
+                                                });
+
+                                                jQuery('#admin_settings a.btn-danger').unbind().bind('click', function (e) {
+                                                    e.preventDefault();
+                                                    annualLeaveUsers(is_admin);
+                                                });
+                                            });
+
+                                            jQuery('#admin_settings a.btn-danger').unbind().bind('click', function (e) {
+                                                e.preventDefault();
+                                                annualLeaveUsers(is_admin);
+                                            });
+
+                                            jQuery('#admin_settings a.btn-success').unbind().bind('click', function (e) {
+                                                e.preventDefault();
+
+                                                jQuery.ajax({
+                                                    url: 'https://als.economics.warwick.ac.uk/setup.php',
+                                                    type: 'GET',
+                                                    dataType: 'jsonp',
+                                                    data: {
+                                                        e: sdata.user,
+                                                        is_booking: (jQuery("#r_is_booking").prop('checked') ? 1 : 0),
+                                                        is_supervisor: (jQuery("#r_is_supervisor").prop('checked') ? 1 : 0),
+                                                        is_admin: (jQuery("#r_is_admin").prop('checked') ? 1 : 0),
+                                                        supervisors: jQuery("#r_supervisor").val(),
+                                                        unit: jQuery("#r_unit").val(),
+                                                        dayHours: (jQuery("#r_day_hours").val() ? jQuery("input#r_day_hours").val() : 0),
+                                                        unitNum: jQuery("#r_annual_leave").val(),
+                                                        suppNum: jQuery("#r_supp_leave").val(),
+                                                        color: jQuery("#r_background_color").val(),
+                                                        textColor: jQuery("#r_text_color").val()
+                                                    },
+                                                    error: function () {
+                                                        alert('There was an error while updating this user!');
+                                                    },
+                                                    success: function (udata) {
+                                                        console.log(udata);
+
+
+                                                        if (sdata.user == user)
+                                                            personalStats();
+                                                        annualLeaveUsers(is_admin);
+                                                    }
+                                                });
+                                            });
+                                        }
+                                    });
+                                });
+                            }
+                        }
+                    }
+                });
+            }
+
+            function personalStats() {
+                loadingPer = true;
+                loading(true);
+
+                jQuery.ajax({
+                    url: 'https://als.economics.warwick.ac.uk/me.php',
+                    type: 'GET',
+                    dataType: 'jsonp',
+                    error: function (xhr, status, error) {
+                        alert('Your user information could not be found! Error: ' + error);
+                        loadingPer = false;
+                        if (loadingCal == false)
+                            loading(false);
+                    },
+                    success: function (res) {
+                        if (res) {
+
+                            user = res.user;
+                            booking = res.is_booking;
+                            unit = res.unit;
+
+                            if ((res.is_admin || res.is_supervisor) && !jQuery("span#settings").length)
+                                loadSettings(res.is_admin);
+
+                            if (booking) {
+                                if (jQuery('#annual').length == 0)
+                                    jQuery('#calendar').before('<p id="annual">Annual leave remaining: <span id="remaining"></span> of <span id="leave"></span> <span id="unit"></span> <span id="leaveBreakdown">(<span id="entitled"></span> + <span id="supplementary"></span>)</span></p>');
+
+                                if (res.combNum == res.unitNum)
+                                    jQuery("#leaveBreakdown").hide();
+
+                                jQuery("#leave").text(parseFloat(res.combNum) + " ");
+                                jQuery("#remaining").text(parseFloat(res.unitRem) + " ");
+                                jQuery("#entitled").text(parseFloat(res.unitNum));
+
+                                var supplementary = parseFloat(res.suppNum);
+                                if (supplementary % 1 != 0) {
+                                    jQuery("#supplementary").text(supplementary);
+                                } else {
+                                    jQuery("#supplementary").text(supplementary.toFixed(0));
+                                }
+
+                                if (res.unit == 0) {
+                                    jQuery("#unit").text("days");
+                                } else if (res.unit == 1) {
+                                    jQuery("#unit").text("hours");
+                                }
+
+                                jQuery(".fc-widget-content").css('cursor', 'pointer');
+                            }
+
+                            if (("bookAs" in res) && res.bookAs.length > 0) {
+                                bookAs.length = 0;
+                                var bookAsSelect = 'Book as <select name="book_as" id="r_book_as">';
+                                if (booking)
+                                    bookAsSelect += '<option value="' + res.user + '">Me</option>';
+                                jQuery.each(res.bookAs, function (index, superData) {
+                                    bookAs.push(superData.user);
+                                    bookAsSelect += '<option value="' + superData.user + '">' + superData.name + '</option>';
+                                });
+                                bookAsSelect += '</select>';
+
+                                if (jQuery('#book_as').length == 0) {
+                                    if (jQuery('#annual').length == 0) {
+                                        jQuery('#calendar').before('<p id="annual"><div id="book_as">' + bookAsSelect + '</div><div class="clear"></div></p>');
+                                    } else {
+                                        jQuery('#annual').append('<div id="book_as">' + bookAsSelect + '</div><div class="clear"></div>');
+                                    }
+                                } else {
+                                    jQuery('#book_as').html(bookAsSelect);
+                                }
+                            }
+
+                            if (("authorise" in res) && res.authorise.length > 0) {
+                                jQuery('#calendar').before('<div id="authorise"></div>');
+
+                                var htmlData = {};
+                                jQuery.each(res.authorise, function (key, value) {
+                                    var leavePeriod = '';
+                                    if (value.allDay == '1') {
+                                        var start = value.start.substr(0, 10);
+                                        var end = value.end.substr(0, 10);
+                                        leavePeriod = 'annual leave ' + (start == end ? 'on ' + start : 'from ' + start + ' to ' + end);
+                                    } else {
+                                        leavePeriod = 'annual leave from ' + value.start + ' to ' + value.end;
+                                    }
+
+                                    htmlData[key] = '<div id="authorise-' + value.id + '" class="ecSlideItemAuthorise"><p>' + value.name + ' requested ' + leavePeriod + '</p><div class="ecSlideItemButton"><a href="#" class="btn btn-success"><i class="fa fa-check-circle-o"></i> Accept</a> <a href="#" class="btn btn-danger"><i class="fa fa-ban"></i> Decline</a></div></div>';
+                                });
+
+                                jQuery('#authorise').ecSlideItems({
+                                    'containerWidth': 500,
+                                    'containerHeight': 100,
+                                    'captionX': 0,
+                                    'captionY': 0,
+                                    'captionWidth': 0,
+                                    'captionHeight': 0,
+                                    'controlHeight': 50,
+                                    'controlHover': 'false',
+                                    'controlBackground': 'none',
+                                    'controlColor': '#dadada',
+                                    'slideTimer': 0,
+                                    'htmlData': htmlData
+                                });
+
+
+                                jQuery('#authorise .btn').click(function (e) {
+                                    e.preventDefault();
+
+                                    var authoriseID = jQuery(this).parents('.ecSlideItemAuthorise').attr('id').replace('authorise-', '');
+                                    var authoriseDecision = (jQuery(this).hasClass('btn-success').toString() == 'true' ? '1' : '0');
+
+                                    jQuery.ajax({
+                                        url: 'https://als.economics.warwick.ac.uk/auth.php',
+                                        type: 'GET',
+                                        dataType: 'jsonp',
+                                        data: {
+                                            id: authoriseID,
+                                            d: authoriseDecision
+                                        },
+                                        error: function () {
+                                            alert('There was an error while authorising this leave!');
+                                        },
+                                        success: function (ddata) {
+                                            if (ddata == 1) {
+                                                personalStats();
+                                                calendar.fullCalendar('refetchEvents');
+                                            } else {
+                                                alert('You are not authorised to accept or decline this annual leave');
+                                            }
+                                        }
+                                    });
+                                });
+                            } else {
+                                if (jQuery('#authorise').length != 0)
+                                    jQuery('#authorise').remove();
+                            }
+                        }
+                        loadingPer = false;
+                        if (loadingCal == false)
+                            loading(false);
+                    }
+                });
+            }
+
+            function loading(bool) {
+                if (bool) {
+                    if (jQuery('#loading').length == 0) {
+                        jQuery("#calendar .fc-header-left").append('<span id="loading-space" class="fc-header-space"/><div id="loading"></div>');
+                        jQuery("#loading").spin({lines: 8, length: 5, width: 4, radius: 4}, "black");
+                    }
+                } else {
+                    jQuery("#loading").spin(false);
+                    jQuery("#calendar .fc-header-left #loading-space").remove();
+                    jQuery("#calendar .fc-header-left #loading").remove();
+                }
+            }
+
+            function bookTime(date) {
+                var time = '';
+                if (unit) { // Days
+                    if (date.getHours() < 12 || (date.getHours() == 12 && date.getMinutes() < 30)) {
+                        time = "(morning)"
+                    } else {
+                        time = "(afternoon)"
+                    }
+                } else { // Hours
+                    time = zfill(date.getHours(), 2) + ":" + zfill(date.getMinutes(), 2);
+                }
+                return time;
+            }
+
+            function zfill(num, len) {
+                return (Array(len).join("0") + num).slice(-len);
+            }
+
+        </script>
+
+
+</body></html>

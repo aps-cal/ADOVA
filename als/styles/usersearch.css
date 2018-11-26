@@ -1,0 +1,48 @@
+.search-result {}
+.search-result .profile {
+	width: 36px;
+	height: 36px;
+	border-radius: 10%;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	margin-right: 10px;
+	position: relative;
+	overflow: hidden;
+	display:inline-block;
+	vertical-align: middle;
+}
+.search-result .details {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.search-result .details li {
+	padding: 0;
+	margin-bottom: 3px;
+}
+.search-result .details .bottom {
+	font-size: 0.8em;
+	line-height: 0.8em
+}
+.selectize-control.loading::before {
+	opacity: 0.4;
+}
+.selectize-control::before {
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+	content: ' ';
+	z-index: 2;
+	position: absolute;
+	display: block;
+	top: 50%;
+	right: 36px;
+	width: 20px;
+	height: 20px;
+	margin: -13px 0 0 0;
+	background: url(/fac/soc/economics/apps/usersearch/spinner.gif);
+	background-size: 20px 20px;
+	opacity: 0;
+}

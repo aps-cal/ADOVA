@@ -1,0 +1,10 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2012-09-25 08:46:03 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: MySQL server has gone away C:\wamp\www\codeigniter\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2012-09-25 08:46:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: MySQL server has gone away C:\wamp\www\codeigniter\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2012-09-25 08:46:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: MySQL server has gone away C:\wamp\www\codeigniter\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2012-09-25 08:46:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: MySQL server has gone away C:\wamp\www\codeigniter\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2012-09-25 08:46:04 --> Severity: Warning  --> mysql_pconnect() [<a href='function.mysql-pconnect'>function.mysql-pconnect</a>]: MySQL server has gone away C:\wamp\www\codeigniter\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2012-09-25 13:42:08 --> Severity: Warning  --> require_once(HTTP/Request.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory C:\wamp\www\naba.net\application\models\ins_model.php 7
+ERROR - 2012-09-25 13:58:26 --> Severity: Warning  --> require_once(HTTP/Request.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory C:\wamp\www\naba.net\application\models\ins_model.php 7
+ERROR - 2012-09-25 13:58:28 --> Severity: Warning  --> require_once(HTTP/Request.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory C:\wamp\www\naba.net\application\models\ins_model.php 7
